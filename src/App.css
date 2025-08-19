@@ -15,7 +15,7 @@
     /* outline: white; */
     border: 1px solid rgb(120, 120, 120);
     caret-color: white;
-
+    color: white;
 }
 .input::placeholder{
     color: rgb(137, 137, 137);
@@ -25,4 +25,29 @@
     width: 70px;
     color: rgb(236, 236, 236);
     padding:7px 0;
+}
+.main{
+    padding:20px 35px;
+}
+.aqi{
+    padding: 15px 35px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.time{
+    margin:0 0 8px 10px
+}
+.temp{
+    margin: 20px 65px 0 0;
+}
+.city{
+    margin: 0 0 0 35px;
+}
+.sunrise{
+    padding: 17px 45px;
+}
+.city1{
+    margin-top: -45px;
+}
+.icon{
+    margin-top: -25px;
 }
