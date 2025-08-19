@@ -51,3 +51,22 @@
 .icon{
     margin-top: -25px;
 }
+.coming{
+    margin: 35px 0 0 0;
+}
+.days{
+    padding: 5px 25px 10px 25px;
+    border-bottom: 1px solid rgb(114, 114, 114);
+}
+.comingdays{
+    margin: 15px 0 15px 20px;
+}
+.hour{
+    padding: 10px 20px
+}
+.para{
+    margin-top: -10px;
+}
+.cards{
+    margin: 25px 25px;
+}
