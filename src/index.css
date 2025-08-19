@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right,
+            #c8934e 0%,
+            /* soft peach from the sun glow */
+            #f2a955 20%,
+            /* warm beige clouds */
+            #65cef8 50%,
+            /* light sky blue */
+            #2794aa 75%,
+            /* sea turquoise */
+            #095b79 100%
+            /* deep ocean blue */
+        );
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+}

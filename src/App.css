@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+.bg-img {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.bg-img1{
+    margin: 0 auto;
+}
+.header{
+    padding: 10px 80px;
+    margin-bottom: 20px;
+}
+.input{
+    padding: 5px 20px;
+    /* outline: white; */
+    border: 1px solid rgb(120, 120, 120);
+    caret-color: white;
+
+}
+.input::placeholder{
+    color: rgb(137, 137, 137);
+
+}
+.search-icon{
+    width: 70px;
+    color: rgb(236, 236, 236);
+    padding:7px 0;
+}
