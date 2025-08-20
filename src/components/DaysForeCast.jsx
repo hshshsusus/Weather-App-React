@@ -16,7 +16,7 @@ const DaysForeCast = ({ comingDaysData }) => {
 
     return (
         <div className="coming flex flex-col gap-5 bg-[rgba(0,0,0,0.2)] rounded-[25px]">
-            <p className="comingdays text-[25px] text-white font-semibold">Coming days weather forecast</p>
+            <p className="comingdays text-[25px] text-white font-semibold bg-[rgba(0,0,0,0.8)]">Coming days weather forecast</p>
             {filData?.map((e, i) => {
 
                 const { dt, main, weather } = e;

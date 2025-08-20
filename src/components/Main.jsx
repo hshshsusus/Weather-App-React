@@ -21,7 +21,7 @@ const Main = () => {
 
     return (
         <>
-            <div className="absolute top-8 left-14 w-[90%] h-[90%] rounded-[20px] bg-[rgba(0,0,0,0.2)] flex flex-col justify-between main">
+            <div className="absolute top-8 left-14 w-[90%] h-[85%] rounded-[20px] bg-[rgba(0,0,0,0.2)] flex flex-col justify-between main">
                 <div className="flex items-center justify-between city">
                     <div className="flex flex-col gap-2.5 city1">
                         <p className="text-[40px] text-white font-semibold">{name}. {sys?.country}</p>
@@ -38,8 +38,8 @@ const Main = () => {
                     <div
                         className="flex flex-col gap-5 temp ">
                         <p className="text-[25px] text-white font-semibold">Today</p>
-                        <img src={`https://openweathermap.org/img/wn/${weather?.[0]?.icon}@2x.png`} alt="sun" className="w-[125px] icon" />
-                        <div className="flex items-center gap-4">
+                        <img src={`https://openweathermap.org/img/wn/${weather?.[0]?.icon}@2x.png`} alt="sun" className="w-[110px] icon" />
+                        <div className="flex items-center gap-4 temp-icon">
                             <TbTemperatureSun className="text-[28px] text-red-600" />
                             <p className="text-white text-[20px]">{main?.temp}&deg;C</p>
                         </div>
@@ -48,7 +48,7 @@ const Main = () => {
                         <p className="text-[18px] text-white">Desc : {weather?.[0]?.description}</p>
                     </div>
                 </div>
-                <div className="flex items-center justify-between gap-6">
+                <div className="flex items-center justify-between gap-6 aqi-rise">
                     <div className="bg-[rgba(0,0,0,0.7)] aqi rounded-[10px] w-1/2">
                         <p className="text-[20px] text-white font-bold">Air quality index (AQI)</p>
                         <div className="flex items-center justify-between">

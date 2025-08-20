@@ -37,7 +37,7 @@
     margin:0 0 8px 10px
 }
 .temp{
-    margin: 20px 65px 0 0;
+    margin: 10px 65px 0 0;
 }
 .city{
     margin: 0 0 0 35px;
@@ -46,20 +46,24 @@
     padding: 17px 45px;
 }
 .city1{
-    margin-top: -45px;
+    margin-top: -55px;
 }
 .icon{
     margin-top: -25px;
 }
 .coming{
-    margin: 35px 0 0 0;
+    /* position: absolute; */
+    margin-top: -70px;
+    /* z-index: 99; */
 }
 .days{
     padding: 5px 25px 10px 25px;
     border-bottom: 1px solid rgb(114, 114, 114);
 }
 .comingdays{
-    margin: 15px 0 15px 20px;
+    margin: 15px 75px;
+    border-radius: 20px;
+    padding: 5px 15px;
 }
 .hour{
     padding: 10px 20px
@@ -69,4 +73,26 @@
 }
 .cards{
     margin: 25px 25px;
+}
+.temp-icon{
+    margin-top: -20px;
+}
+.aqi-rise{
+    margin-top: -40px;
+}
+.heading{
+    background: linear-gradient(to right,
+            #c8934e 0%,
+            /* soft peach from the sun glow */
+            #f2a955 20%,
+            /* warm beige clouds */
+            #65cef8 50%,
+            /* light sky blue */
+            #2794aa 75%,
+            /* sea turquoise */
+            #095b79 100%
+            /* deep ocean blue */
+        );
+        color: rgba(0,0,0,0.1);
+        background-clip: text;
 }

@@ -58,7 +58,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-[9vh] header bg-[rgba(0,0,0,0.8)]">
             <div className="flex items-center gap-2.5">
                 <TiWeatherPartlySunny className="text-[40px] text-white" />
-                <p className="text-[25px] text-white font-bold">Weather app</p>
+                <p className="text-[25px] text-white font-bold heading">Weather app</p>
             </div>
             <div className="flex items-center gap-[1px]">
                 <input type="text" placeholder="Search by city..." className="w-[300px] input rounded-l-[25px]" value={city} onChange={handleCityName} />

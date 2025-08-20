@@ -17,8 +17,8 @@ const HoursWiseForecast = ({ comingDaysData }) => {
                             <p className="text-white" >{main?.temp}</p>
                         </div>
                         <div>
-                            <img className="para" src={`https://openweathermap.org/img/wn/${weather?.[0]?.icon}@2x.png`} alt="icon" className="m-0"/>
-                            <p className="para text-white">Desc : {weather?.[0]?.description}</p>
+                            <img className="para" src={`https://openweathermap.org/img/wn/${weather?.[0]?.icon}@2x.png`} alt="icon"/>
+                            <p className="para text-gray-400 text-[15px]">Desc : {weather?.[0]?.description}</p>
                         </div>
                     </div>
                 )
